@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Pokedex</h1>
+        <div class="search-container">
+            <input type="text" id="pokemon-search" placeholder="Search for Pokémon...">
+        </div>
+        <div id="pokemon-gallery" class="row"></div>
+        <div class="text-center my-4">
+            <button id="load-more" class="btn btn-primary">Load More</button>
+        </div>
+    </div>
+
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <div class="popup-left">
+                <img id="popup-image" src="" alt="Pokemon Image">
+            </div>
+            <div class="popup-right">
+                <h2 id="popup-name"></h2>
+                <p id="popup-abilities"></p>
+                <p id="popup-types"></p>
+                <button id="close-popup" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
