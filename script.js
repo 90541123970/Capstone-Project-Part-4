@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let nextUrl = 'https://pokeapi.co/api/v2/pokemon?limit=20';
     const caughtPokemon = JSON.parse(localStorage.getItem('caughtPokemon')) || [];
 
-    function parseUrl(url) {
+    function parseUrl(url) { 
         return url.split('/').filter(Boolean).pop();
     }
 
