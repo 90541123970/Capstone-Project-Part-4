@@ -16,3 +16,13 @@
 ![image](https://github.com/user-attachments/assets/cb12663d-fd38-48d0-a1cf-d6a89b840bae)
 
 ![image](https://github.com/user-attachments/assets/5abc3e45-923a-4e6e-8201-950478252e07)
+
+result of my pokemon website
+
+![image](https://github.com/user-attachments/assets/4cee3037-9faf-4446-8987-1d7b46062b43)
+
+description about the pokemon
+
+![image](https://github.com/user-attachments/assets/8a1a0952-df73-4633-ad16-052f20465ba6)
+
+
